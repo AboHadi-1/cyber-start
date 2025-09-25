@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ar">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>الألعاب — CyberStart</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand"><div class="logo">C</div><div><div style="font-weight:800">CyberStart</div><div class="small">ألعاب تعليمية</div></div></div>
+      <nav class="nav"><a href="index.html">الرئيسية</a><a href="lessons.html">الدروس</a><a href="quiz.html">الاختبار</a><a href="gallery.html">المعرض</a><a href="contact.html">اتصل بنا</a></nav>
+    </header>
+
+    <main class="card">
+      <h2>لعبة: خمن الرقم</h2>
+      <p class="small">احزر رقم بين 1 و 20. اضغط تحقق!</p>
+
+      <div style="display:flex;gap:8px;align-items:center;margin-top:12px">
+        <input id="guessInput" type="number" min="1" max="20" placeholder="اكتب رقم..." style="padding:8px;border-radius:8px;border:1px solid var(--glass-border);background:transparent;color:inherit"/>
+        <button class="btn" id="guessBtn">تحقق</button>
+        <button class="btn ghost" id="resetGuess" type="button">اعادة</button>
+      </div>
+
+      <div id="guessMsg" class="small" style="margin-top:12px;color:var(--muted)">جرب رقم بين 1 و 20</div>
+    </main>
+
+    <footer class="footer card"><div>© 2025 CyberStart</div><div class="small">لعب وتعلم بأمان</div></footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

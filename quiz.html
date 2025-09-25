@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ar">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>الاختبار — CyberStart</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand"><div class="logo">C</div><div><div style="font-weight:800">CyberStart</div><div class="small">اختبار سريع</div></div></div>
+      <nav class="nav"><a href="index.html">الرئيسية</a><a href="lessons.html">الدروس</a><a href="games.html">الألعاب</a><a href="gallery.html">المعرض</a><a href="contact.html">اتصل بنا</a></nav>
+    </header>
+
+    <main class="card">
+      <h2>اختبار بسيط (5 أسئلة)</h2>
+      <form id="quizForm">
+        <ol style="margin-top:12px">
+          <li style="margin-bottom:10px">
+            <div class="title">1) أي لغة تستخدم لبناء هيكل الصفحة؟</div>
+            <label><input type="radio" name="q1" value="a"/> CSS</label>
+            <label style="margin-left:8px"><input type="radio" name="q1" value="b"/> HTML</label>
+            <label style="margin-left:8px"><input type="radio" name="q1" value="c"/> JavaScript</label>
+          </li>
+
+          <li style="margin-bottom:10px">
+            <div class="title">2) أي شيء يساعد على تفاعل الصفحة؟</div>
+            <label><input type="radio" name="q2" value="a"/> JavaScript</label>
+            <label style="margin-left:8px"><input type="radio" name="q2" value="b"/> HTML</label>
+            <label style="margin-left:8px"><input type="radio" name="q2" value="c"/> SQL</label>
+          </li>
+
+          <li style="margin-bottom:10px">
+            <div class="title">3) أي وحدة تتحكم في شكل الصفحة؟</div>
+            <label><input type="radio" name="q3" value="a"/> PHP</label>
+            <label style="margin-left:8px"><input type="radio" name="q3" value="b"/> JSON</label>
+            <label style="margin-left:8px"><input type="radio" name="q3" value="c"/> CSS</label>
+          </li>
+
+          <li style="margin-bottom:10px">
+            <div class="title">4) ماذا يعني "XSS" بشكل عام؟</div>
+            <label><input type="radio" name="q4" value="a"/> نوع من قواعد البيانات</label>
+            <label style="margin-left:8px"><input type="radio" name="q4" value="b"/> ثغرة حقن نص في صفحات الويب</label>
+            <label style="margin-left:8px"><input type="radio" name="q4" value="c"/> بروتوكول تشفير</label>
+          </li>
+
+          <li style="margin-bottom:10px">
+            <div class="title">5) ماذا تستخدم لتخزين بيانات صغيرة في المتصفح؟</div>
+            <label><input type="radio" name="q5" value="a"/> localStorage</label>
+            <label style="margin-left:8px"><input type="radio" name="q5" value="b"/> PHP</label>
+            <label style="margin-left:8px"><input type="radio" name="q5" value="c"/> FTP</label>
+          </li>
+        </ol>
+
+        <div style="margin-top:12px"><button class="btn" type="submit">راجع الإجابات</button></div>
+      </form>
+
+      <div id="quizResult" class="card" style="margin-top:12px;display:none"></div>
+    </main>
+
+    <footer class="footer card"><div>© 2025 CyberStart</div><div class="small">نتمنى لك التوفيق!</div></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

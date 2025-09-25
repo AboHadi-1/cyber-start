@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>CyberStart — الرئيسية</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <div class="logo">C</div>
+        <div>
+          <div style="font-weight:800">CyberStart</div>
+          <div class="small">تعلم الأمن السيبراني للمبتدئين</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="index.html">الرئيسية</a>
+        <a href="about.html">عن المنصة</a>
+        <a href="lessons.html">الدروس</a>
+        <a href="quiz.html">الاختبار</a>
+        <a href="games.html">الألعاب</a>
+        <a href="gallery.html">المعرض</a>
+        <a href="contact.html">اتصل بنا</a>
+      </nav>
+    </header>
+
+    <section class="hero card">
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <h1>ابدأ رحلتك في الأمن السيبراني — بطريقة مبسطة وممتعة</h1>
+        <p class="lead">دورات قصيرة، اختبارات تفاعلية، وألعاب تساعدك تفهم أساسيات الحماية بطريقة عملية.</p>
+        <div class="cta">
+          <button class="btn scroll-to" data-target="#courses">ابدأ الآن</button>
+          <a href="about.html" class="btn ghost">المزيد عن المنصة</a>
+        </div>
+
+        <div style="margin-top:12px" id="courses">
+          <div class="grid-3">
+            <div class="card course-card">
+              <div class="thumb">H</div>
+              <div class="meta">
+                <div class="title">مقدمة في HTML</div>
+                <div class="small">تعرف على أساسيات صفحات الويب</div>
+                <div class="tags"><div class="tag">HTML</div><div class="tag">مبتدئ</div></div>
+              </div>
+            </div>
+
+            <div class="card course-card">
+              <div class="thumb">C</div>
+              <div class="meta">
+                <div class="title">أساسيات الأمن</div>
+                <div class="small">مفاهيم الحماية الأساسية وطرق التفكير الأمني</div>
+                <div class="tags"><div class="tag">Security</div><div class="tag">مبتدئ</div></div>
+              </div>
+            </div>
+
+            <div class="card course-card">
+              <div class="thumb">J</div>
+              <div class="meta">
+                <div class="title">جافاسكربت صغير</div>
+                <div class="small">تفاعلات بسيطة لبناء أدوات خفيفة</div>
+                <div class="tags"><div class="tag">JS</div><div class="tag">مبتدئ</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="preview">
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <div>
+            <div style="font-weight:800">لوحة المتعلم</div>
+            <div class="small">تتبع تقدمك وشهادات بسيطة</div>
+          </div>
+          <div style="font-size:12px;color:var(--muted)">Beta</div>
+        </div>
+        <div style="flex:1;display:flex;align-items:center;justify-content:center">
+          <div style="width:100%;height:180px;border-radius:10px;background:linear-gradient(90deg,#08263d,#0b2b3d);display:flex;align-items:center;justify-content:center">
+            <div style="text-align:center;color:var(--muted)">
+              <div style="font-weight:800;font-size:22px">مغامرة التعلم</div>
+              <div class="small">دروس قصيرة · اختبارات · تحديات</div>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex;gap:8px;justify-content:space-between">
+          <div class="small">تقييم: ⭐⭐⭐⭐☆</div>
+          <a class="small" href="courses.html" style="color:var(--accent)">عرض كل الدورات</a>
+        </div>
+      </aside>
+    </section>
+
+    <footer class="footer card">
+      <div>© 2025 CyberStart — designed for learning</div>
+      <div class="small">Follow: @cyberstart</div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ar">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>المعرض — CyberStart</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+    .gallery img{width:100%;border-radius:10px;cursor:pointer;border:1px solid var(--glass-border)}
+    @media (max-width:700px){ .gallery{grid-template-columns:repeat(2,1fr)} }
+    @media (max-width:420px){ .gallery{grid-template-columns:1fr} }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand"><div class="logo">C</div><div><div style="font-weight:800">CyberStart</div><div class="small">المعرض</div></div></div>
+      <nav class="nav"><a href="index.html">الرئيسية</a><a href="lessons.html">الدروس</a><a href="quiz.html">الاختبار</a><a href="games.html">الألعاب</a><a href="contact.html">اتصل بنا</a></nav>
+    </header>
+
+    <main class="card">
+      <h2>صور تعليمية</h2>
+      <div class="gallery" style="margin-top:12px">
+        <img src="https://picsum.photos/seed/1/600/400" class="lightbox" alt="img1"/>
+        <img src="https://picsum.photos/seed/2/600/400" class="lightbox" alt="img2"/>
+        <img src="https://picsum.photos/seed/3/600/400" class="lightbox" alt="img3"/>
+        <img src="https://picsum.photos/seed/4/600/400" class="lightbox" alt="img4"/>
+        <img src="https://picsum.photos/seed/5/600/400" class="lightbox" alt="img5"/>
+        <img src="https://picsum.photos/seed/6/600/400" class="lightbox" alt="img6"/>
+      </div>
+      <p class="small" style="margin-top:10px">اضغط على أي صورة لتكبيرها</p>
+    </main>
+
+    <footer class="footer card"><div>© 2025 CyberStart</div><div class="small">صور تجريبية</div></footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
